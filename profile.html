@@ -4,48 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Profile - Igaga Ikhuemoisa Adeoluwa</title>
-    <style>
-        body {
-            background-color: #f8fafc;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-            color: #1e293b;
-            line-height: 1.6;
-            margin: 0;
-            padding: 2rem;
-        }
-        h1, h2 {
-            color: #0f172a;
-            font-weight: 600;
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <h1>My Profile</h1>
+        <div class="nav-container">
+            <a href="profile.html" class="site-title">Profile Project</a>
+            <nav>
+                <ul>
+                    <li><a href="profile.html" class="active">Home/Profile</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main>
-        <section id="bio-info">
-            <h2>Personal Information</h2>
-            <p><strong>Name:</strong> Igaga Ikhuemoisa Adeoluwa</p>
-            <p><strong>Matric Number:</strong> 243457</p>
-            <p><strong>Department:</strong> Computer Science</p>
-            <p><strong>Level:</strong> 300L</p>
-        </section>
-        <section id="courses">
-            <h2>Current Courses</h2>
-            <ul>
-                <li><strong>MAT352:</strong> Numerical Analysis II</li>
-                <li><strong>CSC301:</strong> Systems Analysis & Structured Programming</li>
-                <li><strong>CSC313:</strong> Data Structures & Algorithms</li>
-                <li><strong>CSC335:</strong> Web Application Development</li>
-                <li><strong>GES103:</strong> Government, Society and Economy</li>
-                <li><strong>GES301:</strong> Introduction to Entrepreneurship Skills</li>
-            </ul>
-        </section>
-        <section id="interest">
-            <h2>Software Engineering Interest</h2>
-            <p>I am passionate about software engineering because it allows me to build scalable, impactful systems and craft intuitive software solutions that solve real-world problems.</p>
-        </section>
-    </main>
+
+    <div class="container">
+        <h1>My Profile</h1>
+        <p style="margin-bottom: 1.5rem; color: var(--text-muted);">CSC 335 Web Application Development Assignment</p>
+
+        <main>
+            <section id="bio-info">
+                <h2>Personal Information</h2>
+                <p><strong>Name:</strong> Igaga Ikhuemoisa Adeoluwa</p>
+                <p><strong>Matric Number:</strong> 243457</p>
+                <p><strong>Department:</strong> Computer Science</p>
+                <p><strong>Level:</strong> 300L</p>
+            </section>
+
+            <section id="courses">
+                <h2>Current Courses</h2>
+                <ul class="clean-list">
+                    <li><strong>MAT352:</strong> Numerical Analysis II</li>
+                    <li><strong>CSC301:</strong> Systems Analysis & Structured Programming</li>
+                    <li><strong>CSC313:</strong> Data Structures & Algorithms</li>
+                    <li><strong>CSC335:</strong> Web Application Development</li>
+                    <li><strong>GES103:</strong> Government, Society and Economy</li>
+                    <li><strong>GES301:</strong> Introduction to Entrepreneurship Skills</li>
+                </ul>
+            </section>
+
+            <section id="interest">
+                <h2>Software Engineering Interest</h2>
+                <p>I am passionate about software engineering because it allows me to build scalable, impactful systems and craft intuitive software solutions that solve real-world problems.</p>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Igaga Ikhuemoisa Adeoluwa | Matric: 243457</p>
+        </footer>
+    </div>
 </body>
 </html>
