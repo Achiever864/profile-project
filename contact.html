@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Igaga Ikhuemoisa Adeoluwa</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <a href="profile.html" class="site-title">Profile Project</a>
+            <nav>
+                <ul>
+                    <li><a href="profile.html">Home/Profile</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Contact Me</h1>
+        <p style="margin-bottom: 1.5rem; color: var(--text-muted);">Get in touch for collaborative academic projects or software inquiries.</p>
+
+        <main>
+            <section id="contact-info">
+                <h2>Contact Details</h2>
+                <p><strong>Name:</strong> Igaga Ikhuemoisa Adeoluwa</p>
+                <p><strong>Email:</strong> <a href="mailto:ikhuemoisaigaga@gmail.com" style="color: var(--accent); text-decoration: none;">ikhuemoisaigaga@gmail.com</a></p>
+                <p><strong>Department:</strong> Computer Science</p>
+                <p><strong>University:</strong> Faculty of Science</p>
+            </section>
+
+            <section id="contact-form-section">
+                <h2>Send a Message</h2>
+                <form action="#" method="post" onsubmit="event.preventDefault(); alert('Thank you for reaching out! Your message has been sent successfully.');">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="e.g. Jane Doe" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Your Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="e.g. janedoe@example.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Igaga Ikhuemoisa Adeoluwa | Matric: 243457</p>
+        </footer>
+    </div>
+</body>
+</html>
