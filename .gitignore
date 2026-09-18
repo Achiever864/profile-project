@@ -1,0 +1,9 @@
+# Ignore notes and temporary logs as per assignment requirements
+notes.txt
+*.log
+
+# Project evidence and temporary artifacts
+evidence/
+*.tmp
+Thumbs.db
+.DS_Store
